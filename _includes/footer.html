@@ -3,7 +3,8 @@
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
-
+    <li><a href="mailto:mareike.bosselmann@gmx.de">mareike.bosselmann@gmx.de</a></li>
+    <li><a href="https://www.linkedin.com/in/mareike-bosselmann/">LinkedIn</a></li>  
     {% if site.footer.links %}
       {% for link in site.footer.links %}
         {% if link.label and link.url %}
@@ -13,8 +14,6 @@
     {% endif %}
 
     <!-- <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li> -->
-    <li><a href="mailto:mareike.bosselmann@gmx.de">mareike.bosselmann@gmx.de</a></li>
-    <li><a href="https://www.linkedin.com/in/mareike-bosselmann/">LinkedIn</a></li>  
   </ul>
 </div>
 
